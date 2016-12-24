@@ -1,7 +1,11 @@
 ---
 title: my first post
 date: 2016-12-23 20:24:37
+categories:
+- oos-utils
 tags:
+- sql
+- plsql
 ---
 
 This is some code in SQL
@@ -12,4 +16,8 @@ from emp
 where 1=1
   and ename = 'abc'
 ;
+```
+
+```javascript
+console.log('hello');
 ```

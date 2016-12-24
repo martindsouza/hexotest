@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OdbOpenSource</title>
+  <subtitle>Open source software for Oracle</subtitle>
+  <link href="/hexotest/atom.xml" rel="self"/>
+  
+  <link href="https://martindsouza.github.io/hexotest/"/>
+  <updated>2016-12-24T04:02:54.000Z</updated>
+  <id>https://martindsouza.github.io/hexotest/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>we should see an asset</title>
+    <link href="https://martindsouza.github.io/hexotest/2016/12/23/we-should-see-an-asset/"/>
+    <id>https://martindsouza.github.io/hexotest/2016/12/23/we-should-see-an-asset/</id>
+    <published>2016-12-24T04:02:54.000Z</published>
+    <updated>2016-12-24T04:02:54.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>my first post</title>
+    <link href="https://martindsouza.github.io/hexotest/2016/12/23/my-first-post/"/>
+    <id>https://martindsouza.github.io/hexotest/2016/12/23/my-first-post/</id>
+    <published>2016-12-24T03:24:37.000Z</published>
+    <updated>2016-12-24T03:54:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is some code in SQL</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">select</span> *</div><div class="line"><span class="keyword">from</span> emp</div><div class="line"><span class="keyword">where</span> <span class="number">1</span>=<span class="number">1</span></div><div class="line">  <span class="keyword">and</span> ename = <span class="string">'abc'</span></div><div class="line">;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="string">'hello'</span>);</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is some code in SQL&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;
+    
+    </summary>
+    
+      <category term="oos-utils" scheme="https://martindsouza.github.io/hexotest/categories/oos-utils/"/>
+    
+    
+      <category term="plsql" scheme="https://martindsouza.github.io/hexotest/tags/plsql/"/>
+    
+      <category term="sql" scheme="https://martindsouza.github.io/hexotest/tags/sql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://martindsouza.github.io/hexotest/2016/12/23/hello-world/"/>
+    <id>https://martindsouza.github.io/hexotest/2016/12/23/hello-world/</id>
+    <published>2016-12-24T02:10:53.000Z</published>
+    <updated>2016-12-24T03:54:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="afeb" scheme="https://martindsouza.github.io/hexotest/categories/afeb/"/>
+    
+    
+      <category term="apex" scheme="https://martindsouza.github.io/hexotest/tags/apex/"/>
+    
+      <category term="plsql" scheme="https://martindsouza.github.io/hexotest/tags/plsql/"/>
+    
+  </entry>
+  
+</feed>

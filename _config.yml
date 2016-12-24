@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: OdbOpenSource
+subtitle: Open source software for Oracle
+description: TODO description
+author: Martin Giffy D'Souza
+owner: ClariFit Corp.
+language: en
+timezone: America/Edmonton
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://martindsouza.github.io/hexotest/
-root: /hexotest
-permalink: :year/:month/:day/:title/
+root: /hexotest/
+permalink: blog/:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -28,13 +29,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-filename_case: 0
+filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -72,3 +73,57 @@ deploy:
   repo: git@github.com:martindsouza/hexotest.git
   branch: gh-pages
   message:
+
+# RSS Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+
+# Disqus comments
+disqus_shortname: OdbOpenSource
+
+
+
+theme_config:
+  # Header
+  menu:
+    Home: /
+    Blog: /blog
+    Archives: /archives
+    About: /about
+    Contact: /contact
+  rss: /atom.xml
+
+  # Content
+  excerpt_link: Read More
+  fancybox: true
+
+  # Sidebar
+  sidebar: right
+  widgets:
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+  # display widgets at the bottom of index pages (pagination == 2)
+  index_widgets:
+  # - category
+  # - tagcloud
+  # - archive
+
+  # widget behavior
+  archive_type: 'monthly'
+  show_count: false
+
+  # Miscellaneous
+  google_analytics:
+  favicon: /favicon.png
+  twitter: oraopensource
+  google_plus:
+  fb_admins:
+  fb_app_id:
